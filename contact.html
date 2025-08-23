@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+<header class="site-header">
+<div class="container flex between center">
+<a class="brand" href="/">
+<img src="/assets/logo.png" alt="BinBullion logo" class="logo" />
+<span>BinBullion</span>
+</a>
+<button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+<nav class="nav" id="site-nav">
+<a href="/">Home</a>
+<a href="/about.html">About</a>
+<a href="/contact.html" class="active">Contact</a>
+</nav>
+</div>
+</header>
+
+
+<main class="container">
+<h1>Contact us</h1>
+<p>Use the form or the details below to reach us for quotes and product availability.</p>
+
+
+<!-- Option A: simple email link (opens user’s email app) -->
+<p><strong>Email:</strong> <a href="mailto:bingoldllc@gmail">bingoldllc@gmail</a></p>
+<p><strong>Phone/WhatsApp:</strong> <a href="tel:+971 4 271 0056">+971 4 271 0056</a></p>
+<p><strong>Location:</strong> #2 Moosa Hamd Khalfan Al Saudi Bldg. Next to Women's Museum, Gold Souq Deira, Dubai, UAE</p>
+
+
+<!-- Option B: static form using Formspree (replace with your endpoint) -->
+<!-- To use: create a free form endpoint at https://formspree.io/ and replace the action URL below. -->
+<form class="contact-form" action="https://formspree.io/f/xkgzdezr" method="POST">
+  <label>Your Name
+    <input type="text" name="name" required>
+  </label>
+  <label>Email
+    <input type="email" name="email" required>
+  </label>
+  <label>Message
+    <textarea name="message" rows="6" required></textarea>
+  </label>
+  <button type="submit" class="btn btn-primary">Send</button>
+</form>
+</main>
+
+
+<footer class="site-footer">
+<div class="container footer-grid">
+<div>
+<img src="/assets/logo.png" alt="BinBullion logo" class="logo small" />
+<p>© <span id="year"></span> BinBullion. All rights reserved.</p>
+</div>
+<nav>
+<a href="/">Home</a>
+<a href="/about.html">About</a>
+<a href="/contact.html">Contact</a>
+</nav>
+</div>
+</footer>
+
+
+<script src="/script.js"></script>
+</body>
+</html>
