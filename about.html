@@ -12,9 +12,9 @@
 <body>
 <header class="site-header">
 <div class="container flex between center">
-<a class="brand" href="/">
-<img src="/assets/logo.png" alt="BinBullion logo" class="logo" />
-<span>BinBullion</span>
+<a class="brand" href="./">  <!-- not "/" -->
+  <img src="assets/logo.png" alt="BinBullion logo" class="logo" />
+  <span>BinBullion</span>
 </a>
 <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
 <nav class="nav" id="site-nav">
@@ -51,10 +51,10 @@
 <img src="/assets/logo.png" alt="BinBullion logo" class="logo small" />
 <p>© <span id="year"></span> BinBullion. All rights reserved.</p>
 </div>
-<nav>
-<a href="/">Home</a>
-<a href="/about.html">About</a>
-<a href="/contact.html">Contact</a>
+<nav class="nav" id="site-nav">
+  <a href="index.html">Home</a>      <!-- or just href="./" -->
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
 </nav>
 </div>
 </footer>
