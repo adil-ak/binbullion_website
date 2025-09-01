@@ -1,9 +1,6 @@
-/* ===============================
-   BinBullion — Polished Theme
-   Works with your existing HTML
-   =============================== */
 
-/* ---- Color system ---- */
+
+
 :root{
   --bg: #0b0c0e;          /* page background (near-black) */
   --panel: #121419;       /* panels/cards */
@@ -16,7 +13,7 @@
   --shadow: 0 10px 30px rgba(0,0,0,.35);
 }
 
-/* ---- Base ---- */
+
 *{ box-sizing:border-box; }
 html,body{ height:100%; }
 html{ scroll-behavior:smooth; }
