@@ -115,7 +115,7 @@ main{ padding-bottom: 3rem; }
 }
 .card h3{ margin:.2rem 0 .35rem; color: var(--gold); }
 
-/* ---- Buttons include ---- */
+/* ---- Buttons ---- */
 .btn{
   display:inline-block; border-radius:.7rem;
   padding:.85rem 1.15rem; border:1px solid var(--line);
